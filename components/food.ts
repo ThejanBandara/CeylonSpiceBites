@@ -13,7 +13,7 @@ export const sampleFood = [
     name: "String Hoppers (Idiyappam)",
     desc: "Steamed rice flour noodles, often served with curries and coconut milk.",
     imgURL:
-      "https://www.srilankan-recipes.com/wp-content/uploads/2018/07/string-hoppers-idiyappam.jpg",
+      "https://www.hungrylankan.com/wp-content/uploads/2024/12/string-hoppers-blogg-6-768x1024.jpg.webp",
     price: 400,
     category: "Breakfast",
   },
@@ -22,7 +22,7 @@ export const sampleFood = [
     name: "Hoppers (Appa)",
     desc: "Bowl-shaped pancakes made from fermented rice flour batter, often with an egg in the center.",
     imgURL:
-      "https://www.srilankan-recipes.com/wp-content/uploads/2018/07/hoppers-appa.jpg",
+      "https://www.hungrylankan.com/wp-content/uploads/2024/06/PXL_20230907_022830223.PORTRAIT-2-768x1024.jpg.webp",
     price: 350,
     category: "Breakfast",
   },
@@ -58,7 +58,7 @@ export const sampleFood = [
     name: "Lamprais",
     desc: "Rice cooked in stock with meat (usually chicken, beef, or lamb), vegetables, and sambol, wrapped in a banana leaf and baked.",
     imgURL:
-      "https://www.srilankan-recipes.com/wp-content/uploads/2018/07/lamprais.jpg",
+      "https://www.hungrylankan.com/wp-content/uploads/2020/06/20200624_145019_compress22-768x1024.jpg.webp",
     price: 900,
     category: "Main Course",
   },
@@ -67,7 +67,7 @@ export const sampleFood = [
     name: "Fish Ambul Thiyal",
     desc: "A sour fish curry, typically made with tuna or other firm fish, cooked with goraka (Garcinia cambogia).",
     imgURL:
-      "https://www.theflavorbender.com/wp-content/uploads/2021/09/Fish-Curry-6418-699x1047.jpg",
+      "https://www.hungrylankan.com/wp-content/uploads/2020/08/20200727_102021-1_compress52-768x1024.jpg.webp",
     price: 850,
     category: "Seafood",
   },
@@ -76,7 +76,7 @@ export const sampleFood = [
     name: "Kiribath",
     desc: "Milk rice, cooked with coconut milk, often served with lunu miris.",
     imgURL:
-      "https://www.srilankan-recipes.com/wp-content/uploads/2018/07/kiribath.jpg",
+      "https://www.hungrylankan.com/wp-content/uploads/2021/01/20210101_120451_compress69-768x1024.jpg.webp",
     price: 300,
     category: "Breakfast",
   },
@@ -85,7 +85,7 @@ export const sampleFood = [
     name: "Parippu (Dhal Curry)",
     desc: "A creamy lentil curry, a staple in Sri Lankan cuisine.",
     imgURL:
-      "https://www.srilankan-recipes.com/wp-content/uploads/2018/07/parippu-dhal-curry.jpg",
+      "https://www.hungrylankan.com/wp-content/uploads/2021/02/20210206_145545-2_compress33.jpg.webp",
     price: 450,
     category: "Vegetarian",
   },
@@ -94,7 +94,7 @@ export const sampleFood = [
     name: "Egg Hoppers",
     desc: "Hoppers with a fried egg cooked in the center.",
     imgURL:
-      "https://www.srilankan-recipes.com/wp-content/uploads/2018/07/egg-hoppers.jpg",
+      "https://www.hungrylankan.com/wp-content/uploads/2024/06/PXL_20230907_022830223.PORTRAIT-2-768x1024.jpg.webp",
     price: 400,
     category: "Breakfast",
   },
@@ -157,7 +157,7 @@ export const sampleFood = [
     name: "Seeni Sambol",
     desc: "Sweet caramelized onion relish, often eaten with hoppers or string hoppers.",
     imgURL:
-      "https://www.srilankan-recipes.com/wp-content/uploads/2018/07/seeni-sambol.jpg",
+      "https://www.hungrylankan.com/wp-content/uploads/2023/03/Pineapple-fried-rice-3-768x1024.jpg.webp",
     price: 220,
     category: "Side Dish",
   },
@@ -184,7 +184,7 @@ export const sampleFood = [
     name: "Gotu Kola Sambol",
     desc: "A refreshing and healthy salad made with shredded gotu kola leaves, coconut, onions, and lime.",
     imgURL:
-      "https://www.srilankan-recipes.com/wp-content/uploads/2018/07/gotu-kola-sambol.jpg",
+      "https://www.hungrylankan.com/wp-content/uploads/2023/01/gotukola-rice-bowl-2-768x1024.jpg",
     price: 280,
     category: "Side Dish",
   },
@@ -238,7 +238,7 @@ export const sampleFood = [
     name: "Maldive Fish Sambol (Umbalakada Sambol)",
     desc: "A spicy sambol made with dried Maldive fish flakes, onions, chilies, and lime.",
     imgURL:
-      "https://www.srilankan-recipes.com/wp-content/uploads/2018/07/maldive-fish-sambol.jpg",
+      "https://www.hungrylankan.com/wp-content/uploads/2024/08/Lunu-miris-3-570x599.jpg.webp",
     price: 230,
     category: "Side Dish",
   },
@@ -247,7 +247,7 @@ export const sampleFood = [
     name: "Milk Rice with Jaggery (Kiri Bath with Pani)",
     desc: "Sweetened milk rice served with treacle (pani) made from kithul palm sap.",
     imgURL:
-      "https://www.srilankan-recipes.com/wp-content/uploads/2018/07/kiri-bath-with-pani.jpg",
+      "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F9059403.jpg&q=60&c=sc&poi=auto&orient=true&h=512",
     price: 380,
     category: "Dessert",
   },
@@ -283,7 +283,7 @@ export const sampleFood = [
     name: "Idli Sambar",
     desc: "Steamed rice cakes served with lentil and vegetable stew (sambar).",
     imgURL:
-      "https://www.srilankan-recipes.com/wp-content/uploads/2018/07/idli-sambar.jpg",
+      "https://www.allrecipes.com/thmb/D7HPZGQwg-HhaxQqsKhA3WADkHc=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/8195764-4e3eaeab1ee846aa92795f1d3b633c80.jpg",
     price: 420,
     category: "Breakfast",
   },
@@ -292,7 +292,7 @@ export const sampleFood = [
     name: "Dosa",
     desc: "Thin and crispy pancakes made from fermented rice and lentil batter.",
     imgURL:
-      "https://www.srilankan-recipes.com/wp-content/uploads/2018/07/dosa.jpg",
+      "https://www.allrecipes.com/thmb/0EITNswLmKGFgcvCKujBwTpJzxk=/0x512/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/ALR-recipe-8542186-lentil-flatbread-hero-02-ddmfs-4x3-4c3e674ef96d4b589915d21a13e5c492.jpg",
     price: 380,
     category: "Breakfast",
   },
@@ -328,7 +328,7 @@ export const sampleFood = [
     name: "Achcharu (Pickled Vegetables)",
     desc: "A mix of pickled vegetables in a sweet and sour brine.",
     imgURL:
-      "https://www.srilankan-recipes.com/wp-content/uploads/2018/07/achcharu.jpg",
+      "https://www.hungrylankan.com/wp-content/uploads/2023/06/PXL_20230412_162637225.PORTRAIT-570x599.jpg",
     price: 280,
     category: "Side Dish",
   },
@@ -337,7 +337,7 @@ export const sampleFood = [
     name: "Bibikkan",
     desc: "A rich and moist coconut cake made with grated coconut, jaggery, and spices.",
     imgURL:
-      "https://www.srilankan-recipes.com/wp-content/uploads/2018/07/bibikkan.jpg",
+      "https://www.hungrylankan.com/wp-content/uploads/2023/08/Pol-cake-low-q-2-570x599.jpg.webp",
     price: 350,
     category: "Dessert",
   },

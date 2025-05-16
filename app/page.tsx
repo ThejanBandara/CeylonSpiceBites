@@ -3,6 +3,7 @@ import React from 'react'
 import Image from 'next/image'
 import EmblaCarousel from '@/components/interface/carousel'
 import { EmblaOptionsType } from 'embla-carousel'
+import { Heart } from 'lucide-react'
 
 const food = [
   { id: 1, name: "food name", desc: "food desc with some details", imgURL: '/food.jpg', price: 999 },
@@ -40,17 +41,18 @@ const Home = () => {
           {
             food.map((f) => {
               return (
-                <div className='rounded-lg bg-base-100 shadow-lg hover:mx-2 duration-500 p-1' key={f.id}>
-                  <Image src={f.imgURL} width={150} height={150} alt='food image' className='aspect-square w-full rounded-t-lg object-contain' />
-                  <div className='m-1 mt-2'>
-                    <h2 className='font-medium text-lg'>{f.name}</h2>
-                    <p className='text-sm font-light text-neutral-content/50'>{f.desc}</p>
-                    <div className='flex flex-row items-center justify-between mt-2'>
-                      <h2>LKR {f.price}</h2>
-                      <button className='btn btn-sm btn-outline'>Add to cart</button>
-                    </div>
+                <div className='rounded-lg bg-base-100 shadow-lg duration-500 p-1 relative flex flex-col items-streach justify-between' key={f.id}>
+                <button className='bg-neutral p-1 rounded-full border-2 absolute top-0 right-0 mt-3 mr-3'><Heart className='scale-90'/></button>
+                <Image src={f.imgURL} width={150} height={150} alt='food image' className='aspect-square w-full rounded-t-lg object-cover' />
+                <div className='m-1 mt-2 flex flex-col items-start justify-between grow '>
+                  <h2 className='font-medium text-lg'>{f.name}</h2>
+                  <p className='text-xs font-light text-neutral-content/50'>{f.desc}</p>
+                  <div className='w-full flex flex-row items-center justify-between mt-2'>
+                    <h2 className='font-semibold text-xl'>LKR {f.price}</h2>
+                    <button className='btn btn-sm btn-outline'>Add to cart</button>
                   </div>
                 </div>
+              </div>
               )
             })
           }
