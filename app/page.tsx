@@ -1,6 +1,8 @@
 import NavBar from '@/components/interface/NavBar'
 import React from 'react'
 import Image from 'next/image'
+import EmblaCarousel from '@/components/interface/carousel'
+import { EmblaOptionsType } from 'embla-carousel'
 
 const food = [
   { id: 1, name: "food name", desc: "food desc with some details", imgURL: '/food.jpg', price: 999 },
@@ -10,6 +12,10 @@ const food = [
   { id: 5, name: "food name", desc: "food desc with some details", imgURL: '/food.jpg', price: 999 },
 ]
 const Home = () => {
+  const OPTIONS: EmblaOptionsType = { dragFree: true, loop: true }
+  const SLIDE_COUNT = 5
+  const SLIDES = Array.from(Array(SLIDE_COUNT).keys())
+
   return (
     <main className='w-full min-h-screen'>
       <section className='w-full h-screen flex flex-col items-center justify-center relative' id='#home'>
@@ -27,14 +33,14 @@ const Home = () => {
         </video>
       </section>
 
-      <section className='w-full h-[70vh] flex flex-col items-center justify-center relative' id='#'>
+      <section className='w-full h-[70vh] flex flex-col items-center justify-center relative bg-base-200' id='#'>
         <div className='bg-base-100 absolute top-0 w-full h-full -z-10'></div>
         <h1 className='text-2xl font-medium my-4'>A fine selection of our signature dishes</h1>
         <div className='flex flex-row gap-3 items-center justify-evenly w-10/12'>
           {
             food.map((f) => {
               return (
-                <div className='rounded-lg bg-base-200 shadow-lg hover:shadow-neutral hover:mx-2 duration-500 p-1' key={f.id}>
+                <div className='rounded-lg bg-base-100 shadow-lg hover:mx-2 duration-500 p-1' key={f.id}>
                   <Image src={f.imgURL} width={150} height={150} alt='food image' className='aspect-square w-full rounded-t-lg object-contain' />
                   <div className='m-1 mt-2'>
                     <h2 className='font-medium text-lg'>{f.name}</h2>
@@ -50,6 +56,18 @@ const Home = () => {
           }
         </div>
         <button className='btn btn-neutral my-4'>See full menu</button>
+      </section>
+
+      <section className='w-full h-[70vh] flex flex-col items-center justify-evenly relative'>
+
+          <div className='absolute top-0 left-0 w-full h-full z-20 flex flex-row items-strech justify-between px-8'>
+          <div className='w-1/4 bg-gradient-to-r from-base-100 via-base-100/60 to-black/0'></div>
+          <div className='w-1/4 bg-gradient-to-l from-base-100 via-base-100/60 to-black/0'></div>
+          </div>
+        <h1 className='my-8 font-medium text-2xl'>Hear what our customers say</h1>
+        <div className='w-full flex flex-row'>
+          <EmblaCarousel slides={SLIDES} options={OPTIONS }/>
+        </div>
       </section>
       <section className='w-full h-[70vh] flex flex-row items-stretch justify-around px-12 bg-base-200' id='#'>
         <Image src={'/table.png'} width={500} height={100} alt='table' className=' object-contain' />
@@ -67,9 +85,9 @@ const Home = () => {
           </h1>
           <button className='btn btn-neutral ml-4'>Learn more about us</button>
         </div>
-          <Image src={'/about1.jpg'} width={500} height={300} alt='about image 1' className='w-1/4 object-fill'/>
-          <Image src={'/about2.jpg'} width={500} height={300} alt='about image 2' className='w-1/4 object-cover'/>
-          <Image src={'/about3.jpg'} width={500} height={300} alt='about image 3' className='w-1/4 object-fill'/>
+        <Image src={'/about1.jpg'} width={500} height={300} alt='about image 1' className='w-1/4 object-fill' />
+        <Image src={'/about2.jpg'} width={500} height={300} alt='about image 2' className='w-1/4 object-cover' />
+        <Image src={'/about3.jpg'} width={500} height={300} alt='about image 3' className='w-1/4 object-fill' />
       </section>
 
       <section className='w-full h-[50vh] bg-base-200 flex flex-row items-stretch justify-around'>
