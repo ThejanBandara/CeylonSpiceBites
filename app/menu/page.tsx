@@ -3,7 +3,7 @@ import { sampleFood } from '@/components/food'
 import React, { useEffect, useState } from 'react'
 import Image from 'next/image'
 import NavBar from '@/components/interface/NavBar'
-import { Heart } from 'lucide-react'
+import { Flame, Heart } from 'lucide-react'
 
 
 const MenuPage = () => {
@@ -59,7 +59,12 @@ const MenuPage = () => {
                   <p className='text-xs font-light text-neutral-content/50'>{f.desc}</p>
                   <div className='w-full flex flex-row items-center justify-between mt-2'>
                     <h2 className='font-semibold text-xl'>LKR {f.price}</h2>
-                    <button className='btn btn-sm btn-outline'>Add to cart</button>
+                    <div className='flex gap-2'>
+                        <button className='btn btn-sm btn-outline'>Add to cart</button>
+                        <div className="tooltip" data-tip="Fast Order">
+                        <button className='btn btn-sm btn-outline btn-square'><Flame /></button>
+                        </div>
+                      </div>
                   </div>
                 </div>
               </div>
